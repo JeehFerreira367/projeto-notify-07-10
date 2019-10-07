@@ -1,10 +1,14 @@
 import React from 'react';
 import Header from './componentes/Header.js';
+import Container from './componentes/Container.js';
+import Terceira from './componentes/Terceira'
 
-function App() {
+const App=()=> {
   return (
     <div className="App">
       <Header />
+      <Container/>
+      <Terceira/>
     </div>
   );
 }
